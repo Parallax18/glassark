@@ -3,7 +3,7 @@ import { BsQuote } from "react-icons/bs";
 import { AiFillStar } from "react-icons/ai";
 const Testimonials = () => {
   return (
-    <Box px="10%">
+    <Box px="10%" id={"about"}>
       <Box>
         <Heading textAlign="center" pb={20}>
           What says people
@@ -12,9 +12,9 @@ const Testimonials = () => {
           <Box borderColor="gray.600" boxShadow="xs" p="20px">
             <Icon as={BsQuote} w={8} h={8} />
             <Text>
-              Miko design agency create outstanding works for his clients. Most
-              of their designers are creative, and they are doing very good work
-              for any projects delivered.
+              GlassArk design agency create outstanding works for his clients.
+              Most of their designers are creative, and they are doing very good
+              work for any projects delivered.
             </Text>
             <Box
               display="flex"
@@ -63,9 +63,9 @@ const Testimonials = () => {
           <Box borderColor="gray.600" boxShadow="xs" p="20px">
             <Icon as={BsQuote} w={8} h={8} />
             <Text>
-              Miko design agency create outstanding works for his clients. Most
-              of their designers are creative, and they are doing very good work
-              for any projects delivered.
+              GlassArk design agency create outstanding works for his clients.
+              Most of their designers are creative, and they are doing very good
+              work for any projects delivered.
             </Text>
             <Box
               display="flex"
@@ -114,9 +114,9 @@ const Testimonials = () => {
           <Box borderColor="gray.600" boxShadow="xs" p="20px">
             <Icon as={BsQuote} w={8} h={8} />
             <Text>
-              Miko design agency create outstanding works for his clients. Most
-              of their designers are creative, and they are doing very good work
-              for any projects delivered.
+              GlassArk design agency create outstanding works for his clients.
+              Most of their designers are creative, and they are doing very good
+              work for any projects delivered.
             </Text>
             <Box
               display="flex"

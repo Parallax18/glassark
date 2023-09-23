@@ -2,7 +2,7 @@ import { Box, Flex, Heading, SimpleGrid } from "@chakra-ui/react";
 
 const TrustedCompany = () => {
   return (
-    <Box px="10%" py="150px">
+    <Box px="10%" py="150px" id={"about"}>
       <Heading pb={10}>Trusted our company</Heading>
       <SimpleGrid columns={[1, 2, 6]} justifyItems="center" spacing={3}>
         <Box

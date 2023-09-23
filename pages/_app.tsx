@@ -10,6 +10,7 @@ const theme = extendTheme({
     body: `'Cairo Variable', sans-serif`,
   },
 });
+import "@fontsource-variable/cairo";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>

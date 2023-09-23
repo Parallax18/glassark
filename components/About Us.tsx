@@ -3,6 +3,7 @@ import { Box, Button, Heading, SimpleGrid, Text } from "@chakra-ui/react";
 const AboutUs = () => {
   return (
     <Box
+      id={"about"}
       display="flex"
       flexDirection={{ base: "column", md: "row" }}
       px="10%"
@@ -20,21 +21,8 @@ const AboutUs = () => {
           create a beautiful work project, within a short time we deliver for
           clients.
         </Text>
-        <Button
-          px={30}
-          color="black"
-          borderColor="orange.400"
-          borderWidth="1.5px"
-          borderStyle="solid"
-          backgroundColor="white"
-          _hover={{
-            backgroundColor: "gray.100",
-          }}
-        >
-          About us
-        </Button>
       </Box>
-      <SimpleGrid columns={2} gap={3}>
+      <SimpleGrid columns={[1, 2]} gap={3}>
         <Box p={8} boxShadow="md" textAlign="center">
           <Heading color="orange.400" fontSize={25}>
             10 Years

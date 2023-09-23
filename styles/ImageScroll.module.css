@@ -1,0 +1,40 @@
+/* Container for the scrolling images */
+.scrolling-container {
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  border: 1px solid white;
+  overflow: hidden;
+}
+
+/* Content wrapper for the scrolling items */
+.scrolling-content {
+  display: flex;
+  flex-direction: column;
+  animation: verticalScroll 60s linear infinite; /* Adjust the animation duration as needed */
+}
+
+/* Individual scrolling items (boxes with images) */
+.scrolling-item {
+  width: 100%;
+  height: 300px; /* Should match the container height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for images within the scrolling items */
+.scrolling-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* Vertical scrolling animation */
+@keyframes verticalScroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
